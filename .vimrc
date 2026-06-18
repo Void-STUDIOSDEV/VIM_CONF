@@ -1,5 +1,6 @@
 syntax on
 filetype on
 colorscheme evening
+set number
 
-echo 'YOU ARE ENTERING TEXT EDITOR FOR SAID FILE ...'
+echo 'EDITING FILE: %f'
