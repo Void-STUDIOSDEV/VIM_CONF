@@ -3,4 +3,4 @@ filetype on
 colorscheme evening
 set number
 
-echo 'EDITING FILE: %f'
+autocmd BufEnter * echo 'FILE NAME: ' . expand('%:t')
